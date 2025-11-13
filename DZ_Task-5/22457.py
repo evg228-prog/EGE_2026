@@ -17,3 +17,5 @@ for N in range(1, 100000):
     if R < 12717:
         ans.append(N)
 print(max(ans))
+
+# 47

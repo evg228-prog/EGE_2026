@@ -9,3 +9,5 @@ for N in range (1, 100000):
     if R > 225:
         ans.append(R)
 print(min(ans))
+
+# 228
