@@ -7,3 +7,5 @@ for x in printable[:13]:
     num = num1 + num2 - num3
     if num % 14 == 0:
         print(x, num // 14)
+
+# 3451
