@@ -1,0 +1,10 @@
+from re import *
+
+with open(r'24_1205.txt') as file:
+    data = file.readline()
+
+pattern = r'[^GWP]+'
+matches = [match.group() for match in finditer(pattern, data)]
+print(len(max(matches, key=len)))
+
+# 83
