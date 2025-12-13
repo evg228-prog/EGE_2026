@@ -1,6 +1,6 @@
 from string import ascii_uppercase
 
-with open(r'24_4602.txt.') as file:
+with open(r'.\files\24_4602.txt') as file:
     data = file.readline()
 
 vowels = 'EYUIOA'
