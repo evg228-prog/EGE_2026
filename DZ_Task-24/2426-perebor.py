@@ -10,5 +10,3 @@ for char in data:
     else:
         cnt = 0
 print(ans)
-
-# 20
